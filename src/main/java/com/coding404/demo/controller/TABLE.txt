@@ -1,0 +1,5 @@
+CREATE TABLE USERS(
+	USERNAME VARCHAR(50) PRIMARY KEY, # id
+    password varchar(50), #pw
+    role varchar(50) #권한
+);

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>우리의 로그인페이지</h3>
+    <h3>여기에 비밀번호를 공개하지 않을겁니다.</h3>
+
+    <form action="loginForm" method="post">
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="checkbox" name="remember-me">나를기억해
+        <input type="submit" th:value="로그인">
+    </form>
+
+    [[${msg}]]
+
+
+
+</body>
+</html>
